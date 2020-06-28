@@ -1,0 +1,191 @@
+ body{
+  background-color: purple;
+ }
+
+  h1{
+      margin-bottom: 15px;
+      text-align: center;
+      font-weight: bold;
+      font-style: italic;
+      color: yellow;
+      width: 80%;
+    }
+
+
+  *{
+      box-sizing: border-box;
+  }
+
+@media (min-width: 992px) 
+{
+  p{
+      box-sizing: border-box;
+      padding: 10px;
+      border: 1px solid black;
+      margin-bottom: 10px;
+      padding-top: 25px;
+    }
+
+    #pizza
+    { 
+      background-color: orange;
+      float:right;
+      border: 1px solid black;
+       width: 30%;
+
+
+
+    }
+    #sandwich
+    {
+     background-color: orange;
+     float: right;
+     border: 1px solid black;
+     margin-right: 40px;
+      width: 30%;
+      
+    }
+
+    #burger
+    {
+      background-color: orange;
+      float: right;
+      border:1px solid black;
+      margin-right: 40px;
+      width: 30%;
+
+
+    }
+    .food1
+    {
+      float: right;
+      background-color: red;
+      color: green;
+      
+    }
+    .food2
+    {
+
+      float: right;
+      background-color: red;
+      color: green;
+     
+
+    }
+    .food3
+    {
+      float: right;
+      background-color: red;
+      color: green;
+      
+    }
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) 
+{
+    #pizza
+    { 
+      background-color: orange;
+      float:right;
+      border: 1px solid black;
+      margin-right: 10px;
+      margin-bottom: 10px;
+      width: 48%;
+
+    }
+    #sandwich
+    {
+     background-color: orange;
+     float: right;
+     border: 1px solid black;
+     margin-bottom: 10px;
+     margin-right: 10px;
+     width: 48%;
+    }
+
+    #burger
+    {
+      background-color: orange;
+      float: right;
+      border: 1px solid black;
+      margin-right: 10px;
+      margin-bottom: 10px;
+      width: 97%
+    }
+
+    .food1
+    {
+      float: right;
+      background-color: red;
+      color: green;
+      
+    }
+    .food2
+    {
+      float: right;
+      background-color: red;
+      color: green;
+      
+
+    }
+    .food3
+    {
+      float: right;
+      background-color: red;
+      color: green;
+      
+    }
+
+}
+
+@media (max-width: 767px)
+{
+    #pizza
+    { 
+      background-color: orange;
+      float:right;
+      border: 1px solid black;
+      margin-bottom: 10px;
+
+    }
+
+    #sandwich
+    {
+     background-color: orange;
+     float: right;
+     border: 1px solid black;
+     margin-bottom: 10px;
+    }
+
+    #burger
+    {
+      background-color: orange;
+      float: right;
+      border: 1px solid black;
+      margin-bottom: 10px;
+    }
+
+   .food1
+    {
+      float: right;
+      background-color: red;
+      color: green;
+    }
+
+    .food2
+    {
+      float: right;
+      background-color: red;
+      color: green;
+    }
+
+    .food3
+    {
+      float: right;
+      background-color: red;
+      color: green;
+      
+    }
+}
